@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2022.05.22~2023.05.22</title>
+    <script src ="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+    <script type="text/javascript" src="sy.js"></script>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<!--     <header>
+        <h1>봄과 여름사이</h1>
+    </header> -->
+    <div id="container"></div>
+    <div class="main-wrapper">
+
+        <!-- tap1 -->
+        <input type="radio" name="tap" id="tap1" checked="checked">
+        <label for="tap1" id="tap1-label" class="box box1">            
+            <div class="text">
+                <h2>22년 5월</h2>
+                <p>
+                    일감호
+                </p>
+            </div>
+        </label>
+            
+        <!-- tap2 -->
+        <input type="radio" name="tap" id="tap2">
+        <label for="tap2" id="tap2-label" class="box box2">
+            <div class="text">
+                <h2>22년 6월</h2>
+                <p>
+                    왕십리
+                </p>
+            </div>
+        </label>
+
+        <!-- tap3 -->
+        <input type="radio" name="tap" id="tap3">
+        <label for="tap3" id="tap3-label" class="box box3">
+            <div class="text">
+                <h2>22년 7월</h2>
+                <p>
+                    낙산공원
+                </p>
+            </div>
+        </label>
+
+        <!-- tap4 -->
+        <input type="radio" name="tap" id="tap4">
+        <label for="tap4" id="tap4-label" class="box box4">
+            <div class="text">
+                <h2>22년 8월</h2>
+                <p>
+                    100일, 어대역
+                </p>
+            </div>
+        </label>
+    </div>
+    <div class="main-wrapper">
+        <!-- tap5 -->
+        <input type="radio" name="tap" id="tap5">
+        <label for="tap5" id="tap5-label" class="box box5">
+            <div class="text">
+                <h2>22년 9월</h2>
+                <p>
+                    집
+                </p>
+            </div>
+        </label>
+        <!-- tap6 -->
+        <input type="radio" name="tap" id="tap6">
+        <label for="tap6" id="tap6-label" class="box box6">
+            <div class="text">
+                <h2>22년 10월</h2>
+                <p>
+                    건대 옷집
+                </p>
+            </div>
+        </label>
+        <!-- tap7 -->
+        <input type="radio" name="tap" id="tap7">
+        <label for="tap7" id="tap7-label" class="box box7">
+            <div class="text">
+                <h2>22년 11월</h2>
+                <p>
+                    롯데월드
+                </p>
+            </div>
+        </label>
+        <!-- tap8 -->
+        <input type="radio" name="tap" id="tap8">
+        <label for="tap8" id="tap8-label" class="box box8">
+            <div class="text">
+                <h2>22년 12월</h2>
+                <p>
+                    200일, 어대역
+                </p>
+            </div>
+        </label>
+    </div>
+    <div class="main-wrapper">
+        <!-- tap9 -->
+        <input type="radio" name="tap" id="tap9">
+        <label for="tap9" id="tap9-label" class="box box9">
+            <div class="text">
+                <h2>23년 1월</h2>
+                <p>
+                    제주도
+                </p>
+            </div>
+        </label>
+        <!-- tap10 -->
+        <input type="radio" name="tap" id="tap10">
+        <label for="tap10" id="tap10-label" class="box box10">
+            <div class="text">
+                <h2>23년 2월</h2>
+                <p>
+                    서연이 생일, 카페
+                </p>
+            </div>
+        </label>
+        <!-- tap11 -->
+        <input type="radio" name="tap" id="tap11">
+        <label for="tap11" id="tap11-label" class="box box11">
+            <div class="text">
+                <h2>23년 3월</h2>
+                <p>
+                    야당 카페
+                </p>
+            </div>
+        </label>
+        <!-- tap12 -->
+        <input type="radio" name="tap" id="tap12">
+        <label for="tap12" id="tap12-label" class="box box12">
+            <div class="text">
+                <h2>23년 4월</h2>
+                <p>
+                    벛꽃놀이 가기 전, 어대역
+                </p>
+            </div>
+        </label>
+    </div>
+
+    <section id="main-content">
+        <!-- content1 -->
+        <article class="content" id="content1">
+            <h2 class="content-title">전시장 1 : '나'</h2>
+            <h3 class="content-subtitle" id="content1-1">『 '나' 에 대한 소개 』</h3>
+            <img src="tap1.jpg" class="content-img">
+            <p id="content1-text">
+                <i><strong>"후회없이 살자"</strong></i><br>
+            </p>
+            <p>
+                이름 : 김영준<br>
+                생년월일 : 2000.07.03<br>
+                학과 : 건국대학교 소프트웨어학과<br>
+                취미 : 농구, 게임<br>
+                좋아하는 가수 : 윤하, 엔플라잉, 스탠딩 에그<br>
+            </p>
+        </article>
+
+        <!-- content3 -->
+        <article class="content" id="content3">
+            <h2 class="content-title">전시장 3 : '기억'</h2>
+            <h3 class="content-subtitle" id="content3-1">『 나의 소중한 '기억' 』</h3>
+            <img src="tap3.jpg" class="content-img">
+
+            <div>
+                <div class="subcontent" id="subcontent3-1">"코로나"</div>
+                <p>
+                    2020년 초부터 시작된 코로나는 우리의 생활을 멈추게 했다.<br>이로 인해 여행, 특히 해외여행은 그림의 떡이 되었는데 그나마 위로가 되는 건 코로나 유행 직전인 2020년 1월달에 다녀온 <strong>'베트남 여행'</strong> 이다.
+                </p>
+            </div>
+            <br>
+
+            <div>
+                <div class="subcontent" id="subcontent3-2">"베트남"</div>
+                <p>
+                    나는 베트남 여행 전까지는 해외를 나가본 적이 없었다.<br>
+                    항상 꿈만 그리던 해외 여행이였는데 드디어 처음으로 해외로 가는 비행기에 타게 되었다.<br>
+                    '2020.01.09 ~ 2020.01.12'<br>
+                    이렇게 총 3박 4일의 첫 해외 여행을 친구들과 함께 떠나게 되었다.<br>
+                    (전시된 사진은 하노이에서 열린 축제의 한 장면이다.)
+                </p>
+            </div>
+            <br>
+
+            <div>
+                <div class="subcontent" id="subcontent3-3">"소중한 기억"</div>
+                <p>
+                    내가 보는 세상은 오직 내가 살고 있는 이 곳 하나였다.<br>
+                    길거리를 거닐다 보면 보이는 사람들은 대부분 한국인이였고,<br>
+                    나는 그런 풍경에 익숙해져있었다. 하지만 베트남에서 본 길거리는 당연하게도<br>
+                    한국인은 거의 보이지 않았다. 제 3자가 된 듯한 입장에서 길거리를 바라보는 느낌은<br>
+                    생각보다 더 신선한 기분이였다. 다른 나라의 문화를 책이나 영상이 아닌<br>
+                    내 몸으로 직접 느끼는 것도 너무 즐겁고 신나는 일이였다.<br>
+                    이러한 베트남에서의 경험들이 나에게 있어서 너무 좋은 기억으로 남게 되었고,<br>
+                    이 여행 이후로 해외 여행을 많이 가볼려고 계획을 했었지만 코로나로 인해 실패...
+                </p>
+            </div>
+            <br>
+        </article>
+
+    </section>
+</body>
+</html>
