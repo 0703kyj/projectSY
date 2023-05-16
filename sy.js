@@ -141,15 +141,38 @@ function makeLatter(id){
   		break;
   	case 'tap10':
   		str = '';
-  		str += ''+'<br>';
+  		str += '대망의 서연이 생일!!'+'<br>';
+  		str += '이 날만을 손꼽아 기다려 왔었지ㅎㅎ 내가 사랑하는 사람의'+'<br>';
+  		str += '생일을 챙겨주고 축하해줄 수 있다는 건 정말 행복한 일인'+'<br>';
+  		str += '것 같아. 너가 생일 하루를 즐겁고 행복하게 보냈으면 '+'<br>';
+  		str += '했고,행복하게 보내고 즐거워 보였어서 난 내심 뿌듯하고'+'<br>';
+  		str += '좋았어! 너 선물 살 때, 목걸이를 사놨었는데 갑자기 너가'+'<br>';
+  		str += '목걸이를 따로 산다길래 정말 식겁했던 기억이 나네ㅋㅎ'+'<br>';
+  		str += '좋아해줘서 고마웠고 앞으로의 생일도 계속 나랑 보내자!!'+'<br>';
+  		str += '내가 앞으로도 행복한 생일 만들어줄게요 :)'+'<br>';
   		break;
   	case 'tap11':
   		str = '';
-  		str += ''+'<br>';
+  		str += '3월! 이긴 한데 3월에 찍은 사진이 없더라고..?'+'<br>';
+  		str += '학기 초라 바빴나..? 그래서 2월 말에 찍은 사진으로 대채'+'<br>';
+  		str += '했어ㅎㅎ 야당가서 찍은 사진인데 아마 널 만나지 않았다면'+'<br>';
+  		str += '가보지 못했을 곳 같은데 너로 인해 새로운 곳도 많이 '+'<br>';
+  		str += '가보고 경험하는 것 같아서 난 너무 좋아 :) 특히 야당은'+'<br>';
+  		str += '서연이가 자라온 곳을 같이 보면서 같이 걷고 있으면 널 더'+'<br>';
+  		str += '잘 알아갈 수 있는 것 같아서 좋아. 호수공원에서 불꽃놀이'+'<br>';
+  		str += '하는 건 아직 못봤는데 나중에 데려가서 보여줘!!'+'<br>';
   		break;
   	case 'tap12':
   		str = '';
-  		str += ''+'<br>';
+  		str += '마지막 4월이네. 처음으로 간 벚꽃놀이 완전 만족한 날 :)'+'<br>';
+  		str += '석촌호수도 가고 서울숲도 가고 사진도 많이 찍고. 행복한'+'<br>';
+  		str += '날이었어! 이렇게 22년 5월부터 지금까지 우리 꽤 많은걸'+'<br>';
+  		str += '했넹. 그치? 1년동안 고생많았고 고마웠어 :) 앞으로도'+'<br>';
+  		str += '더 많은 날들을 우리가 함께할건데 그 날들도 지금처럼'+'<br>';
+  		str += '행복하고 많이 웃는 날들이었으면 좋겠다. 사랑하는 서연아'+'<br>';
+  		str += '나랑 앞으로도 행복하게 만나자! 많이 많이 사랑해♡'+'<br>';
+  		str += '<br>';
+  		str += '<div style="text-align:right">2023.05.23 영준이가</div>'+'<br>';
   		break;
   	default:
   		str = '';
@@ -162,7 +185,6 @@ function myFunction(tap) {
   	var popup = document.getElementById("content1");
   	$("#main-content").toggle()
   	change_position($("#main-content"))
-  	change_position_img($("#content-img"))
   	$("#content-img").css("background-image", "url(" + "img/"+tap.id+".jpg" + ")");
   	popup.classList.toggle("show");
   	console.log($(tap).find('h2').text());
@@ -191,11 +213,6 @@ function closeFunction(){
 function change_position(obj){
 	var l = ($(window).width()-obj.width())/2;
 	var t = ($(window).height()-obj.height())/2;
-	obj.css({top:t,left:l});
-}
-function change_position_img(obj){
-	var l = ($("#main-content").width()-obj.width())/2;
-	var t = ($("#main-content").height()-obj.height())*7;
 	obj.css({top:t,left:l});
 }
 // a Pen by DIACO : twitter.com/Diaco_ml  ||  codepen.io/MAW
