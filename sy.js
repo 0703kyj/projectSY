@@ -171,7 +171,7 @@ function makeLatter(id){
   		str += '행복하고 많이 웃는 날들이었으면 좋겠다. 사랑하는 서연아'+'<br>';
   		str += '나랑 앞으로도 행복하게 만나자! 많이 많이 사랑해♡'+'<br>';
   		str += '<br>';
-  		str += '<div style="text-align:right">2023.05.23 영준이가</div>'+'<br>';
+  		str += '<div style="text-align:right">2023.05.22 영준이가</div>'+'<br>';
   		break;
   	default:
   		str = '';
