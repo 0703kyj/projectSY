@@ -19,7 +19,6 @@ window.onload = function(){
 	  	warp.appendChild(Div);
 	  	animm(Div);
 	}
-	
 }
 
 
